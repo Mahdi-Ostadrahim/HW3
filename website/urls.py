@@ -4,5 +4,4 @@ from website.views import *
 
 urlpatterns = [
     path('',index_view),
-    path('HW',HW,name='HW'),
 ]
